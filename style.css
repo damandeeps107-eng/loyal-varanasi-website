@@ -2245,6 +2245,37 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .header-container {
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .royal-brand {
+    gap: 8px;
+  }
+
+  .brand-logo-img {
+    height: 34px;
+    max-width: 90px;
+    padding: 2px 4px;
+  }
+
+  .brand-english {
+    font-size: 0.95rem;
+    letter-spacing: 1.8px;
+  }
+
+  .brand-subtitle {
+    font-size: 0.48rem;
+    letter-spacing: 1px;
+  }
+
+  .header-cta-btn {
+    padding: 6px 12px;
+    font-size: 0.68rem;
+    letter-spacing: 0.5px;
+  }
+
   .hero-section {
     min-height: 85vh;
     padding: 60px 0 40px;
@@ -2268,7 +2299,7 @@ ul {
   }
 
   .hero-editorial-title {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     line-height: 1.1;
   }
 
@@ -2291,11 +2322,11 @@ ul {
   }
 
   .royal-nav {
-    position: fixed;
-    top: 96px;
+    position: absolute;
+    top: 100%;
     left: 0;
     width: 100%;
-    background: rgba(26, 2, 9, 0.98);
+    background: rgba(22, 3, 9, 0.98);
     border-bottom: 1px solid var(--gold-primary);
     padding: 20px 0;
     transform: translateY(-150%);
@@ -2348,3 +2379,33 @@ ul {
   padding: 2px 6px;
   border: 1px solid rgba(212, 175, 55, 0.4);
 }
+
+@media (max-width: 480px) {
+  .header-container {
+    padding: 8px 10px;
+    gap: 6px;
+  }
+
+  .brand-logo-img {
+    height: 30px;
+    max-width: 75px;
+    padding: 1px 3px;
+  }
+
+  .brand-english {
+    font-size: 0.86rem;
+    letter-spacing: 1.2px;
+  }
+
+  .brand-subtitle {
+    font-size: 0.44rem;
+    letter-spacing: 0.8px;
+  }
+
+  .header-cta-btn {
+    padding: 5px 9px;
+    font-size: 0.62rem;
+    letter-spacing: 0.2px;
+  }
+}
+
